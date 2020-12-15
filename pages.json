@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/found/found",
+			"style": {
+				"navigationBarTitleText": "纸享读书"
+			}
+		},
+		{
+			"path": "pages/intro/intro",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/bag/bag",
+			"style": {
+				"navigationBarTitleText": "借阅读书"
+			}
+		},
+		
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/bookshelf/bookshelf",
+			"style": {
+				"navigationBarTitleText": "书柜"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "书语",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"borderStyle":"white",
+		"list":[
+		{
+			"pagePath":"pages/found/found",
+			"text":"发现",
+			"iconPath":"static/发现.png",
+			"selectedIconPath":"static/发现-填充.png"
+		},
+		{
+			"pagePath":"pages/bookshelf/bookshelf",
+			"text":"书柜",
+			"iconPath":"static/书柜.png",
+			"selectedIconPath":"./static/家具产品—书柜.png"
+		},
+		{
+			"pagePath":"pages/intro/intro",
+			"text":"导读",
+			"iconPath":"static/导读.png",
+			"selectedIconPath":"static/读书.png"
+		},
+		{
+			"pagePath":"pages/bag/bag",
+			"text":"书包",
+			"iconPath":"static/书包.png",
+			"selectedIconPath":"static/书包1.png"
+		},{
+			"pagePath":"pages/account/account",
+			"text":"我的",
+			"iconPath":"static/我的.png",
+			"selectedIconPath":"static/账户.png"
+		}
+		
+		]
+	}
+}
