@@ -52,7 +52,7 @@
 
 			</view>
 
-			<button class="buy">一键下单</button>
+			<button class="buy" @click="memBuy">一键下单</button>
 
 		</view>
 		<!-- 热门书单 -->
@@ -243,6 +243,11 @@
 			define(){
 				uni.navigateTo({
 					url:'/pages/choose/choose'
+				})
+			},
+			memBuy(){
+				uni.navigateTo({
+					url:'/pages/member/member'
 				})
 			}
 		},

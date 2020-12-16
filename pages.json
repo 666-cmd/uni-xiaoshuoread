@@ -35,6 +35,13 @@
             "path" : "pages/choose/choose",
             "style" : {}
         }
+        ,{
+            "path" : "pages/member/member",
+            "style" : {
+				"navigationBarTitleText": "会员",
+				"navigationBarBackgroundColor": "#19CAAD"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
