@@ -31,7 +31,11 @@
 				"navigationBarTitleText": "书柜"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/choose/choose",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "书语",

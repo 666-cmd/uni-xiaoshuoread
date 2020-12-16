@@ -24,7 +24,7 @@
 			<view class="recom-nav">
 				<text class="bold">智能推荐</text>
 				<text> | </text>
-				<text style="margin-left: 10px;">自定义</text>
+				<text style="margin-left: 10px;" @click="define">自定义</text>
 				<view class="iconfont icon-zidingyi" style="display: inline-block;font-size: 10px;"></view>
 				<view class="iconfont icon-huanyipi" style="display: inline-block;float: right;"></view>
 				<text style="float: right;" @click="nextRecom">换一批</text>
@@ -111,7 +111,7 @@
 						<image :src="`${imgUrl+item.data.tp}`" class="title-img"></image>
 						<view class="title-jj">
 							<view class="hide" style="font-size: 15px;">{{item.bt}}</view>
-							<view style="font-size: 14px; color: #969896;">
+							<view style="font-size: 13px; color: #969896;">
 								<text style="color: red;">作者：</text>
 								{{item.data.ly}}</view>
 							<view class="title-pri">
@@ -130,7 +130,7 @@
 								<view class="iconfont icon-shoucang"></view>
 								<text>收藏</text>
 							</view>
-							<view @click="addBag" :class="{'modify':isselect}" >
+							<view @click="addBag(i,item)" :class="{'modify':item.sc}" >
 								<view class="iconfont icon-shubao"></view>
 								<text>加书包</text>
 							</view>
@@ -203,9 +203,6 @@
 			}
 		},
 		methods: {
-			getID(n){
-				this.name = hotlist[n].bt;
-			},
 			async getRecom() {
 				let result = await myRequestGet(
 					'resid=SdAction.zntjsd', {
@@ -237,10 +234,16 @@
 
 				console.log(result3, "2222222");
 			},
-			addBag(){
-				var index = {{i}};
-				console.log(index,"111111111111");
-				hotlist[n].isselect;
+			addBag(n,it){
+				
+				console.log(n,it,"111111111111");
+				it.sc = !it.sc;
+				uni.$emit("sendbook", "你好，bag")
+			},
+			define(){
+				uni.navigateTo({
+					url:'/pages/choose/choose'
+				})
 			}
 		},
 		components: {
