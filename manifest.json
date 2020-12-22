@@ -77,5 +77,26 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
-    }
+    },
+	"uniStatistics": {
+		"enable": false
+	},
+	"h5": {
+		"devServer": {
+			"port": 8080,
+			"disableHostCheck": true,
+			"proxy": {
+				"/portal.php": {
+					"target": "https://uptownlet.com",
+					"changeOrigin": true,
+					"secure": false
+				},
+				"/selectact/query.jspx": {
+					"target": "https://uptownlet.com",
+					"changeOrigin": true,
+					"secure": false
+				}
+			}
+		}
+	}
 }

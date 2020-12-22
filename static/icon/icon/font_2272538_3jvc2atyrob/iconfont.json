@@ -1,0 +1,16 @@
+{
+  "id": "2272538",
+  "name": "书写",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18171242",
+      "name": "文件,文本,记录,书写",
+      "font_class": "file-text",
+      "unicode": "ea35",
+      "unicode_decimal": 59957
+    }
+  ]
+}

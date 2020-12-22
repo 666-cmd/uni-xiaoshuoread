@@ -1,0 +1,16 @@
+{
+  "id": "2272589",
+  "name": "灯",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11581091",
+      "name": "灯",
+      "font_class": "deng",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    }
+  ]
+}

@@ -18,11 +18,13 @@
 				"navigationBarTitleText": "借阅读书"
 			}
 		},
-		
+
 		{
 			"path": "pages/account/account",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#19CAAD",
+				"navigationBarTextStyle":"white"
 			}
 		},
 		{
@@ -30,18 +32,184 @@
 			"style": {
 				"navigationBarTitleText": "书柜"
 			}
-		}
-	    ,{
-            "path" : "pages/choose/choose",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/member/member",
-            "style" : {
+		}, {
+			"path": "pages/choose/choose",
+			"style": {}
+		}, {
+			"path": "pages/member/member",
+			"style": {
 				"navigationBarTitleText": "会员",
 				"navigationBarBackgroundColor": "#19CAAD"
 			}
+		}, {
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "阅读评测",
+				"onReachBottomDistance":0
+			}
+		},
+		{
+			"path": "pages/ClassifiedBooks/ClassifiedBooks",
+			"style": {
+				"navigationBarTitleText": "推荐分类",
+				"onReachBottomDistance": 20
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/radio/radio",
+			"style": {
+				"navigationBarTitleText": "收音机"
+			}
+		}, {
+			"path": "pages/musicmain/musicmain",
+			"style": {
+				"navigationBarTitleText": "语书——诉你所书"
+			}
+		}, {
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarTitleText": "会员权益兑换"
+			}
+
+		}, {
+			"path": "pages/fenxiang/fenxiang",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/lanDetail/lanDetail",
+			"style": {
+				"navigationBarTitleText": "栏目详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shou/shou",
+			"style": {
+				"navigationBarTitleText": "收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/pinglun/pinglun",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/xunzhang/xunzhang",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/jieshu/jieshu",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/xiaofei/xiaofei",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#19CAAD"
+			}
+
+		}, {
+			"path": "pages/shubao/shubao",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/detailChange/detailChange",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/leader/leader",
+            "style" : {
+				"navigationBarTitleText": "领读者",
+				"navigationBarBackgroundColor":"#FF7B5A",
+				"navigationBarTextStyle":"white"
+			}
         }
+        ,{
+            "path" : "pages/review-history/review-history",
+            "style" : {
+				"navigationBarTitleText": "评测历史"
+			}
+        }
+        ,{
+            "path" : "pages/review-question/review-question",
+            "style" : {
+				"navigationBarTitleText": "评测题"
+			}
+        }
+        ,{
+            "path" : "pages/book-reminder/book-reminder",
+            "style" : {
+				"navigationBarTitleText": "图书提醒"
+			}
+        }
+        ,{
+            "path" : "pages/binding-card/binding-card",
+            "style" : {
+				"navigationBarTitleText": "绑定会员卡"
+			}
+        }
+        ,{
+            "path" : "pages/join-class/join-class",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"#19CAAD"
+			}
+        }
+        ,{
+            "path" : "pages/city/city",
+            "style" : {
+				"navigationBarTitleText": "选择城市",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+        },
+		{
+		    "path" : "pages/pay/pay",
+		    "style" : {
+				"navigationBarTitleText": "选择城市",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+		    "path" : "pages/hostd/hostd",
+		    "style" : {
+				"navigationBarTitleText": "书单",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -49,39 +217,38 @@
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#F8F8F8"
 	},
-	"tabBar":{
-		"borderStyle":"white",
-		"list":[
-		{
-			"pagePath":"pages/found/found",
-			"text":"发现",
-			"iconPath":"static/发现.png",
-			"selectedIconPath":"static/发现-填充.png"
-		},
-		{
-			"pagePath":"pages/bookshelf/bookshelf",
-			"text":"书柜",
-			"iconPath":"static/书柜.png",
-			"selectedIconPath":"./static/家具产品—书柜.png"
-		},
-		{
-			"pagePath":"pages/intro/intro",
-			"text":"导读",
-			"iconPath":"static/导读.png",
-			"selectedIconPath":"static/读书.png"
-		},
-		{
-			"pagePath":"pages/bag/bag",
-			"text":"书包",
-			"iconPath":"static/书包.png",
-			"selectedIconPath":"static/书包1.png"
-		},{
-			"pagePath":"pages/account/account",
-			"text":"我的",
-			"iconPath":"static/我的.png",
-			"selectedIconPath":"static/账户.png"
-		}
-		
+	"tabBar": {
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/found/found",
+				"text": "发现",
+				"iconPath": "static/发现.png",
+				"selectedIconPath": "static/发现-填充.png"
+			},
+			{
+				"pagePath": "pages/bookshelf/bookshelf",
+				"text": "书柜",
+				"iconPath": "static/书柜.png",
+				"selectedIconPath": "./static/家具产品—书柜.png"
+			},
+			{
+				"pagePath": "pages/intro/intro",
+				"text": "导读",
+				"iconPath": "static/导读.png",
+				"selectedIconPath": "static/读书.png"
+			},
+			{
+				"pagePath": "pages/bag/bag",
+				"text": "书包",
+				"iconPath": "static/书包.png",
+				"selectedIconPath": "static/书包1.png"
+			}, {
+				"pagePath": "pages/account/account",
+				"text": "我的",
+				"iconPath": "static/我的.png",
+				"selectedIconPath": "static/账户.png"
+			}
+
 		]
 	}
 }

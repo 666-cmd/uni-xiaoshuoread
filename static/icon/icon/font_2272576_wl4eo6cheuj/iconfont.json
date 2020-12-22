@@ -1,0 +1,16 @@
+{
+  "id": "2272576",
+  "name": "提醒",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3413781",
+      "name": "提醒",
+      "font_class": "tixing",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

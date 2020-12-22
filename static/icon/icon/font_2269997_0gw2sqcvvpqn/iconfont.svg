@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="pingcebaogao" unicode="&#59085;" d="M633.34104 7.144323999999983v-65.109827H118.381503v65.109827h514.959537z m266.358382 0v-65.109827h-201.248555v65.109827h201.248555zM631.346312 830.890173l264.227515-264.227514-507.057573-515.048324 0.047353-0.580069-0.609665 0.005919-0.313711-0.325549-0.307792 0.325549H122.702428L122.524855 322.974335l1.035839-0.106543-0.118382 0.118381L631.346312 830.890173zM196.454104 247.754728l-5.344925-128.775399 121.779052 8.783908-116.434127 119.991491z m434.56074 486.725549L219.858127 323.31172300000003l168.143168-168.143168 411.156717 411.156717-168.143168 168.143167z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

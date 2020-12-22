@@ -1,0 +1,16 @@
+{
+  "id": "2272628",
+  "name": "分享",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4142888",
+      "name": "分享 转发 发送至 箭头 圆形 shar",
+      "font_class": "fenxiangzhuanfafasongzhijiantouyuanxingshar",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    }
+  ]
+}

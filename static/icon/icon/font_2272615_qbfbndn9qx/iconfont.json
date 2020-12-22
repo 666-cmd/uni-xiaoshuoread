@@ -1,0 +1,16 @@
+{
+  "id": "2272615",
+  "name": "AI",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11955046",
+      "name": "AI",
+      "font_class": "AI",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    }
+  ]
+}

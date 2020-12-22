@@ -1,0 +1,16 @@
+{
+  "id": "2272604",
+  "name": "书写~",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17904511",
+      "name": "书写",
+      "font_class": "shuxie",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}

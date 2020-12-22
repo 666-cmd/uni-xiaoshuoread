@@ -1,0 +1,16 @@
+{
+  "id": "2272608",
+  "name": "money",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5430742",
+      "name": "钱",
+      "font_class": "qian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

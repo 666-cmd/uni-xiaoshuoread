@@ -1,0 +1,16 @@
+{
+  "id": "2282026",
+  "name": "头像",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10229427",
+      "name": "头像 女孩",
+      "font_class": "icon-test",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

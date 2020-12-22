@@ -1,0 +1,16 @@
+{
+  "id": "2269866",
+  "name": "皇冠",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11756551",
+      "name": "皇冠",
+      "font_class": "V",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    }
+  ]
+}

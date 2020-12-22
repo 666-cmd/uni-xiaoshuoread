@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1608046181912'); /* IE9 */
+  src: url('iconfont.eot?t=1608046181912#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPoAAsAAAAACDAAAAOZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEPINGATYCJAMICwYABCAFhG0HLxvrBsgOJRGRwIDhAWBGPHytoe/v7QVJIUpESSBUJioOSNVGtdJ1Youqqp6NuPney6ZO4S2c0pik6fIl6e5BKOGvg/8B/HHv9I+Wbp4PKKPIxly2l/6LAgwsDWysSV0kBYpZKuA5Ih3I4zCBBv2sCO2FRCUBRIZRgbgh8HyA5OxyCz3UmWpqFmbxgZi69Jr2AO/D78d/DoGQlAXUHF8HFwG/X0GUI3KqOiXLRyjm80JaRoFZQCbOa/2HROLkLBENRlLUMLCvyuBX0P/Kl+/2h0cQNaBvYsm98ntSuMpbLU8gx+1vAPg+anvSVfbR8vpT6mWMsrG1e05JY1dcUlI6TGgz1YoHhrWLu5umlWqVtadVa3pUK2pqXG1FIC1codagV9tq2Ws669opffWHefd9jXrt8vLqKkbZLLaqKr+7elm1Snm3cfv6tHE3h+vWtbU1p11WxWBMuJB+Ym6rZaco3qnWKyRJbVqVLGfUsrZbdbVG25x61z31OjC8rkylurpcRaOcleCflvnm+XmHWejrsJyPdocgDkFiCg4gsAwW+/SFOmcUyJcKEeSeog64j/YulanKKV5+wi/j+yRMBZcIZKVucWB38EdDwjfzQQDDMd7cLIMRmBUgFMTy98oOf3Ha5+LdN6+C+lBtqSxOxaUwr486+spt6jfP3VrFKoO0RCUWSTogmPEy6QISIvBKjKUOONLdoS4jnV4/Xbh70Sd+yoXwFFSa48BvVVvjR0zkAu+NMw9bYiVazHyLUg6MCjQ8xJeWO/Qb7ok/7ll5sRRPRcAWoPpbncmgePeHnmb/Je14rrzXV6Qxg5//vsNQ3S8I1L12IPj7tHkWGmpTBXvKurSlPJC8jYonNFCECiDc4cXYYDeQekOdrGAhqdUHhTqjaCbPQqnRHNSoswkNZoQub9SJJCJyPaadZyC0GYSkxUcotNlHM/k5lHq8hRptIQINLkN5w0bjQUgFkjCfhkVowWGUKORyMMdFS0WVCRAvZeWTWVXITYEkRURQexu7YiYUciA5xxSKjzvQNIZiJJeNhjDHQRaLi/JIbgkspG2KaZrnYWuL1b3IppDLBlJ2kaB8NKgIqsBhKEIhLg7Mb02TKn0+AYQrxZKPbCE0RFNAJArROcqeDbseaKie04twL89Q+HAOaDQMCkPiYkOFMF6IRUkuFK++XwmoEM1G8Yg4jwdbrhnWV2+zvpH9AcqkBmBJQT0K5SOXDTkAAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1608046181912') format('woff'),
+  url('iconfont.ttf?t=1608046181912') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1608046181912#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-women:before {
+  content: "\e644";
+}
+

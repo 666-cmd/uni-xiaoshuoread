@@ -1,0 +1,16 @@
+{
+  "id": "2272616",
+  "name": "我们",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10788199",
+      "name": "我们",
+      "font_class": "women",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}

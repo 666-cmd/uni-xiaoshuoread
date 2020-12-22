@@ -1,0 +1,16 @@
+{
+  "id": "2272620",
+  "name": "兑换码",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11473017",
+      "name": "兑换码",
+      "font_class": "duihuanma",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

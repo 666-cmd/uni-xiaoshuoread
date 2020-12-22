@@ -1,0 +1,16 @@
+{
+  "id": "2269997",
+  "name": "评测",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16559451",
+      "name": "评测报告",
+      "font_class": "pingcebaogao",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    }
+  ]
+}

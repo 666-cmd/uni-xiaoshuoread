@@ -49,7 +49,7 @@
 				<view class="mem-word">优选好礼，专属积分兑换</view>
 				<view class="mem-word">分享有赏，打造个人影响力</view>
 			</view>
-			<view class="buy">365元</view>
+			<view class="buy" @click="gobuy('/pages/pay/pay')">365元</view>
 		</view>
 		
 	</view>
@@ -63,7 +63,12 @@
 			}
 		},
 		methods: {
-			
+			gobuy(path){
+				uni.navigateTo({
+					url:path
+				})
+		
+				}
 		}
 	}
 </script>
